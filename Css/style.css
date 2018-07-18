@@ -162,4 +162,29 @@ h1{
 
 
 
+.spacer-verticale {
+	height: 4em;
+}
 
+.contact {
+	padding: 100px;
+}
+
+.contact a:hover{
+	color: #95C11F;
+	text-decoration: none;
+}
+
+#contact h1{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+ #contact {
+	background-color:#CCCCCC;
+	height: 100px;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	color: white;
+}
