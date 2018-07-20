@@ -1,5 +1,5 @@
 body{
-	color: #004077;
+	color: #383E42;
 	background-color: #FFFFFF;
 	font-size: 19px;
 	line-height: 32px;
@@ -10,13 +10,13 @@ h1{
 }
 
 .navbar-transparent {
-  background-color: #004077;
+  background-color: #EDF2F2;
   opacity: 0.7;
 }
 
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
-  color: #eeeeee;
+  color: #383E42;
   line-height: 50px;
 }
 
@@ -27,7 +27,7 @@ h1{
 .navbar-transparent .navbar-nav > .open > a:hover,
 .navbar-transparent .navbar-nav > .open > a:focus {
   color: white;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgb(0, 0, 0, 0.3);
 }
 
 .navbar-transparent .navbar-brand:hover,
@@ -57,7 +57,7 @@ h1{
 }
 
 #feature {
-	color: #004077; 
+	color: #674077; 
 	font-size: 50px;
 	border: 1px solid white;
 	margin: 20px;
@@ -65,7 +65,7 @@ h1{
 
 
 .présentation a:hover{
-	color: #95C11F;
+	color: #383E42;
 	text-decoration: none;
 }
 
@@ -76,8 +76,9 @@ h1{
 
 .services {
 	text-align: center;
-	background-color: #EDF2F2;
+	background-color: #383E42;
 	padding: 50px;
+	color: white;
 }
 
 .témoinage {
@@ -96,8 +97,10 @@ h1{
 	padding-bottom: 50px
 }
 
-.apropos {
-	background-color: #EDF2F2;
+#apropospresentation {
+	padding: 30px;
+	background-color: #E7C675;
+	color: #ffffff;
 }
 
 #photo {
@@ -134,21 +137,28 @@ h1{
 }
 
 .tarif h2{
-	text-decoration: underline; 
 	font-size: x-large;
 	padding-top: 1em;
+	text-align: center;
+}
+
+.tarif h1{
+	font-size: x-large;
+	padding-top: 1em;
+	text-align: left;
 }
 #footer {
-  background-color: #004077;
-  color:  #FFFFFF;
+	background-color:  #EDF2F2;
+	opacity: 0,3;
   padding-left: 100px;
   padding-top: 3em;
   padding-bottom: 3em;
   padding-right: 100px;
+
 }
 
 #footer a {
-  color: #FFFFFF;
+  color: #383E42;
 }
 
 #footer a:hover {
@@ -169,6 +179,11 @@ h1{
 .contact {
 	padding: 100px;
 }
+.contacta {
+	font-size: x-large;
+	color:#383E42;
+
+}
 
 .contact a:hover{
 	color: #95C11F;
@@ -187,4 +202,48 @@ h1{
 	padding-top: 150px;
 	padding-bottom: 50px;
 	color: white;
+}
+
+#cover {
+	background-image:  url('../images/background/multi.jpg');
+	height: 200px;
+	background-size: cover;
+	padding-top: 100px;
+	color: white;
+}
+
+#featurea {
+	color: #56626B;
+	font-size: 50px;
+	border: 1px solid white;
+	margin: 20px;
+}
+
+#featureb{
+	color: #6C9380;
+	font-size: 50px;
+	border: 1px solid white;
+	margin: 20px;	
+}
+
+#featurec {
+	color: #C0CA55; 
+	font-size: 50px;
+	border: 1px solid white;
+	margin: 20px;	
+}
+
+#featured {
+	color: #F07C6C; 
+	font-size: 50px;
+	border: 1px solid white;
+	margin: 20px;	
+}
+
+
+#featuree {
+	color: #AD5472; 
+	font-size: 50px;
+	border: 1px solid white;
+	margin: 20px;	
 }
