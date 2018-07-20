@@ -64,12 +64,12 @@ h1{
 }
 
 
-.prÃ©sentation a:hover{
+.presentation a:hover{
 	color: #383E42;
 	text-decoration: none;
 }
 
-.prÃ©sentation h1{
+.presentation h1{
 	padding-bottom: 1em;
 }
 
@@ -81,13 +81,13 @@ h1{
 	color: white;
 }
 
-.tÃ©moinage {
+.temoinage {
 	text-align: left; 
 	padding-left: 100px;
 	padding-right: 100px
 }
 
-.tÃ©moinage h1{
+.temmoinage h1{
 	text-align: center; 
 	padding-bottom: 50px;
 }
