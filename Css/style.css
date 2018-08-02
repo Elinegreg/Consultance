@@ -247,3 +247,7 @@ h1{
 	border: 1px solid white;
 	margin: 20px;	
 }
+
+.Planfinancier h1{
+	padding-bottom: 1em;
+}
