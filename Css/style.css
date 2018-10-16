@@ -36,6 +36,9 @@ h1{
   color: white;
 }
 
+#box1 {
+	box-shadow: 2px 2px 3px #FCF8FA ; 
+} 
 
 .spacer {
 	height:30px;
