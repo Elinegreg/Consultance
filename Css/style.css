@@ -38,7 +38,7 @@ h1{
 
 .box1 {
 	background-color: #EAEAEA ; 
-	box-shadow: 2px 2px 3px blue ; 
+	box-shadow: 2px 2px 3px #EAEAEA ; 
 } 
 
 .spacer {
