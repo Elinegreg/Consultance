@@ -39,8 +39,8 @@ h1{
 .box1 {
 	background-color: #F7F7F7 ; 
 	box-shadow: 2px 2px 3px #EAEAEA ; 
-	height: 30px; 
-	margin: 10px; 
+	padding: 27px;
+	margin: 6px;
 } 
 
 .spacer {
@@ -82,7 +82,7 @@ h1{
 
 .services {
 	text-align: center;
-	background-color: #383E42;
+	background-color: #56626B;
 	padding: 50px;
 	color: white;
 }
@@ -154,7 +154,7 @@ h1{
 	text-align: left;
 }
 #footer {
-	background-color:  #EDF2F2;
+	background-color:#F7F7F7;
 	opacity: 0,3;
   padding-left: 100px;
   padding-top: 3em;
