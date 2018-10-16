@@ -17,7 +17,7 @@ h1{
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
   color: #383E42;
-  line-height: 50px;
+  line-height: 35px;
 }
 
 .navbar-transparent .navbar-nav > li > a:hover,
@@ -70,15 +70,6 @@ h1{
 }
 
 
-.presentation a:hover{
-	color: #383E42;
-	text-decoration: none;
-}
-
-.presentation h1{
-	padding-bottom: 1em;
-}
-
 
 .services {
 	text-align: center;
@@ -103,14 +94,52 @@ h1{
 	padding-bottom: 50px
 }
 
-#apropospresentation {
-	padding: 30px;
-	background-color: #E7C675;
-	color: #ffffff;
+
+.cover {
+	height: 200px;
+	background-size: cover;
+	padding-top: 100px;
+	color:  #383E42;
 }
+
+
+.cover:after {
+  content: '';
+  width: 5%;
+  display: block;
+	margin: 0 auto;
+  padding-top: 15px; 
+  border-bottom: 5px solid #383E42;
+}
+
+.cover1 {
+	height: 150px;
+	background-size: cover;
+	padding-top: 5px;
+	color:  #383E42;
+}
+
+
+.cover1:after {
+  content: '';
+  width: 5%;
+  display: block;
+	margin: 0 auto;
+  padding-top: 15px; 
+  border-bottom: 5px solid #383E42;
+}
+.box2 {
+	background-color: #56626B; 
+	box-shadow: 2px 2px 3px #606E78 ; 
+	padding: 15px;
+	margin: 10px;
+	border-radius: 5px;
+	color: white;
+} 
 
 #photo {
 	border-radius: 50%;
+	box-shadow: 2px 2px 3px #93A8B7;
 }
 
 .apropos h2{
@@ -210,13 +239,6 @@ h1{
 	color: white;
 }
 
-#cover {
-	background-image:  url('../images/background/multi.jpg');
-	height: 200px;
-	background-size: cover;
-	padding-top: 100px;
-	color: white;
-}
 
 #featurea {
 	color: #56626B;
@@ -257,4 +279,15 @@ h1{
 .Planfinancier h1{
 	padding-bottom: 1em;
 	padding-top: 1em;
+}
+
+message {
+	width: 570px;
+	height: 100px;
+}
+
+#demande {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 20px;
 }
