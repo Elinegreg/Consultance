@@ -36,8 +36,8 @@ h1{
   color: white;
 }
 
-#box1 {
-	background-color: #F5F5F5 ; 
+.box1 {
+	background-color: #EAEAEA ; 
 	box-shadow: 2px 2px 3px blue ; 
 } 
 
