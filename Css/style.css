@@ -60,6 +60,7 @@ h1{
 
 #wrapper h2 {
 	font-size: 30px;
+	color:  #383E42; 
 }
 
 #feature {
@@ -281,10 +282,6 @@ h1{
 	padding-top: 1em;
 }
 
-message {
-	width: 570px;
-	height: 100px;
-}
 
 #demande {
   border-radius: 5px;
