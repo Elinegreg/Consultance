@@ -224,7 +224,8 @@
 
 
 <!-- Modal -->
-<div class="modal fade" id="formulaire" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+<div class="modal fade" id="formulaire" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">  action="https://formspree.io/your@email.com"
+      method="POST">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -234,24 +235,24 @@
         </button>
       </div>
        <div class="modal-body">
-        <form action="">
+        <form action="<form action="https://formspree.io/eline@idsoft.be" method="POST"">
         <div class="row">
           <div class="col-xs-6">
             <div class="form-group">
             <label for="firstname">Prénom</label>
-            <input type="Prénom" class="form-control" placeholder="eline" id="firstname">
+            <input type="Prénom" class="form-control" placeholder="Votre nom" id="firstname">
           </div>
           </div>
           <div class="col-xs-6">
              <div class="form-group">
             <label for="name">Nom</label>
-            <input type="Nom" class="form-control" placeholder="gregoire" id="name">
+            <input type="Nom" class="form-control" placeholder="Votre nom" id="name">
           </div>
           </div>  
           <div class="col-xs-12">
            <div class="form-group">
             <label for="email">E-mail</label>
-            <input type="email" class="form-control" placeholder="gregoire@gmail.com" id="email">
+            <input type="email" class="form-control" placeholder="Votre e-mail" id="email">
           </div> 
           </div>  
            <div class="col-xs-12">      
@@ -260,12 +261,10 @@
            <textarea id="message" class="form-control"> </textarea>
          </div>
           </div>  
-        </form>
               <div class="modal-footer">
         <input type="submit" value="Envoyer" class="btn btn-success">
-        <input type="hidden" name="to" value="eline@idsoft.be">
-        <input type="hidden" name="next" value="https://plan-financier.be">
-        </div>
+                </div>
+                </form>
       </div>
     </div>
   </div>
