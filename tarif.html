@@ -80,7 +80,7 @@ window.smartsupp||(function(d) {
           <p> 
 
       <p><b>Chaque projet étant différent, contactez-nous afin de discuter de vos besoins et de vous remettre offre.</b> </p>
-      <p> <i class="fas fa-phone-volume"></i> 04/343.79.38 - <i class="fas fa-envelope"></i> hello@plan-financier.be</p>   
+      <p> <i class="fas fa-phone-volume"></i> 04/343.79.38 - <i class="fas fa-envelope"></i> <a href="mailto:hello@plan-financier.be"> hello@plan-financier.be </a></p>   
       <div class="spacer"></div>
       <div class="text-center">
   <a href="#" class="btn btn-success" id="demande"  data-toggle="modal" data-target="#formulaire"> Contactez-nous
@@ -145,5 +145,52 @@ window.smartsupp||(function(d) {
 
   gtag('config', 'UA-7505499-8');
 </script>
+
+<!-- Modal -->
+<div class="modal fade" id="formulaire" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">  
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel"> Contact</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="https://formspree.io/eline@idsoft.be" method="POST"">
+          <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="form-group">
+                <label for="firstname"></label>
+                <input type="Prénom" name="Prénom" placeholder="Votre prénom" id="Prénom">
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="form-group">
+                <label for="Nom"> </label>
+                  <input type="Nom" name="nom" placeholder="Votre nom" id="Nom">
+              </div>  
+            </div>       
+            <div class="col-xs-12">
+             <div class="form-group">
+                <label for="email"></label>
+                <input type="email" name="email" placeholder="Votre e-mail" id="email">
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="form-group">
+                <label for="text"> </label>
+                <textarea name="message" placeholder=" Votre message" id="text"></textarea>
+              </div>
+            </div>
+                <button type="submit" value="Envoyer" class="btn btn-success">Envoyer </button>
+          </div>
+        </div>
+       </form>
+      </div>
+    </div>
+  </div>
+</div>
   </body>
 </html>
