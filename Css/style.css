@@ -240,7 +240,9 @@ h1{
 	color: white;
 }
 
-
+.tarif h2{
+	text-align: left; 
+}
 #featurea {
 	color: #56626B;
 	font-size: 50px;
