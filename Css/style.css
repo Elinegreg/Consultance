@@ -52,6 +52,7 @@ h1{
 	height: 650px;
 	background-size: cover;
 	padding-top: 150px;
+	padding-bottom: 100px; 
 	color: white;
 }
 #wrapper h1{
@@ -116,7 +117,7 @@ h1{
 .cover1 {
 	height: 150px;
 	background-size: cover;
-	padding-top: 5px;
+	padding-top: 10px;
 	color:  #383E42;
 }
 
