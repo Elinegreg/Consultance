@@ -79,7 +79,17 @@ h1{
 	padding-top: 150px;
 	padding-bottom: 100px; 
 	color: white;
+	}
+
+.test {
+	background-color: #1D4259;
+	height: 1200px;
+
+	padding-top: 150px;
+	padding-bottom: 100px; 
+	color: white;
 }
+
 #wrapper1 h1{
 	font-size: 80px;
 }
